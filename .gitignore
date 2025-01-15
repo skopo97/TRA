@@ -1,4 +1,21 @@
+# Clion build filut #
+bin/
+build/
+cmake-build-debug/
+
+# Henk.koht asetukset #
+.vscode/
+.idea/
+
+# randomia  #
+._*
+.Trashes
+*.idx
+
+# Tehtävät #
 *.docx
+*.xlsx
 *.#docx
 
-./idea
+# txt tiedostot #
+*.txt
