@@ -1,0 +1,7 @@
+Eikö tässä alkuperäisessä versiossa aina tarkasteta viereiset 8 ruutua, eli funktio käy 
+aina itsensä + 8 ruutua, eli 9.
+
+Jos taas poistetaan siitä hedge, eli ne solut jotka ovat aina kuolleet niin kyllä funktio
+on nopeampi, koska joskus sen tarvitsis esim vain tarkastaa 3 solua, jos kyseessä olisi juuri
+rajalla oleva solu. Pienissä ruudukoissa todennäköisesti kannatava muutos, mutta isoissa ei
+välttämättä, koska suurin osa soluista ei ole rajalla vaan ne ovat enemmän keskellä.
