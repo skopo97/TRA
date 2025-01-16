@@ -20,7 +20,8 @@ cmake-build-debug/
 # txt tiedostot #
 *.txt
 # EI cmaketxt
-!CMakeLists.txt
+!CmakeLists.txt
+!T3.txt
 
 #Lähdekoodit
 Lahdekoodit/
