@@ -25,3 +25,6 @@ cmake-build-debug/
 
 #Lähdekoodit
 Lahdekoodit/
+
+# Clang
+.clang-format
