@@ -24,7 +24,7 @@ errorCode pop_top(std::stack<int> &stack, Stack_entry &t) {
     return errorCode::pop_top_success;
 }
 
-//T3C
+//T2C
 void clear(std::stack<int> &stack) {
     while (!stack.empty()) {
         stack.pop();
@@ -32,13 +32,13 @@ void clear(std::stack<int> &stack) {
     std::cout << "Stack cleared.\n";
 }
 
-//T3D
+//T2D
 int size(std::stack<int> &stack) {
     int size = static_cast<int>(stack.size());
     return size;
 }
 
-//T3E
+//T2E
 void delete_all(std::stack<int> &stack, Stack_entry x) {
     std::stack<int> tmpStack{};
 
@@ -79,21 +79,22 @@ int main() {
         std::cout << static_cast<int>(errorCode::pop_top_fail) << '\n';
     }
 
-    //T3C
+    //T2C
     clear(original);
 
 
-    //T3D
+    //T2D
     int stackSize = size(original);
     std::cout << "Stack size: " << stackSize << '\n';
 
 
+    //T2E
     //Lisätään pinoon numeroita uudetaan, koska se on tyhjä
     for (size_t i{0}; i < 5; ++i) {
         original.push(static_cast<int>(i));
     }
     original.push(3);
-
+    
     delete_all(original, 3);
 
     while (!original.empty()) {
